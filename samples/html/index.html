@@ -11,7 +11,7 @@
     <div class="app-desc">Version: 1.0.0</div>
     <div class="license-info">Apache 2.0</div>
     <div class="license-url">http://www.apache.org/licenses/LICENSE-2.0.html</div>
-  <h2>Access</h2>
+    <h2><a name="Access"></a>Access</h2>
   <div class="method-summary">Customize this message as you see fit!</div>
   <h2>Methods</h2>
   
@@ -35,6 +35,21 @@
     <div class="return-type"><a href="#"></a></div>
 
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">405</div>
+      <div class="response-msg">Validation exception</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">Pet not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid ID supplied</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -55,6 +70,13 @@
 
     <div class="return-type"><a href="#"></a></div>
 
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">405</div>
+      <div class="response-msg">Invalid input</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -85,6 +107,17 @@
     <div class="example-data-content-type">Content-Type: application/xml</div>
     <pre class="example"><code><Pet>\n  <id>123456</id>\n  <Category>\n    <id>123456</id>\n    <name>string</name>\n  </Category>\n  <name>doggie</name>\n  <photoUrls>string</photoUrls>\n  <Tag>\n    <id>123456</id>\n    <name>string</name>\n  </Tag>\n  <status>string</status>\n</Pet></code></pre>
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">array[Pet]</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid status value</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -113,6 +146,17 @@
     <h3 class="field-label">Example data</h3>
     <div class="example-data-content-type">Content-Type: application/xml</div>
     <pre class="example"><code><Pet>\n  <id>123456</id>\n  <Category>\n    <id>123456</id>\n    <name>string</name>\n  </Category>\n  <name>doggie</name>\n  <photoUrls>string</photoUrls>\n  <Tag>\n    <id>123456</id>\n    <name>string</name>\n  </Tag>\n  <status>string</status>\n</Pet></code></pre>
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">array[Pet]</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid tag value</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -143,6 +187,21 @@
     <div class="example-data-content-type">Content-Type: application/xml</div>
     <pre class="example"><code><Pet>\n  <id>123456</id>\n  <Category>\n    <id>123456</id>\n    <name>string</name>\n  </Category>\n  <name>doggie</name>\n  <photoUrls>string</photoUrls>\n  <Tag>\n    <id>123456</id>\n    <name>string</name>\n  </Tag>\n  <status>string</status>\n</Pet></code></pre>
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">Pet not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">Pet</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid ID supplied</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -170,6 +229,13 @@
     <div class="return-type"><a href="#"></a></div>
 
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">405</div>
+      <div class="response-msg">Invalid input</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -193,6 +259,13 @@
 
     <div class="return-type"><a href="#"></a></div>
 
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid pet value</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -221,6 +294,13 @@
     <div class="return-type"><a href="#"></a></div>
 
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">0</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -245,7 +325,14 @@
     
     <h3 class="field-label">Example data</h3>
     <div class="example-data-content-type">Content-Type: application/xml</div>
-    <pre class="example"><code>not implemented com.wordnik.swagger.models.properties.MapProperty@181090c0</code></pre>
+    <pre class="example"><code>not implemented com.wordnik.swagger.models.properties.MapProperty@1224773e</code></pre>
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">map[String, Integer]</div>
     
   </div> <!-- method -->
   <hr>
@@ -270,11 +357,22 @@
     
     <h3 class="field-label">Example data</h3>
     <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>{\n  "id" : 123456789,\n  "petId" : 123456789,\n  "complete" : true,\n  "status" : "aeiou",\n  "quantity" : 123,\n  "shipDate" : "2015-05-04T12:01:38.749+0000"\n}</code></pre>
+    <pre class="example"><code>{\n  "id" : 123456789,\n  "petId" : 123456789,\n  "complete" : true,\n  "status" : "aeiou",\n  "quantity" : 123,\n  "shipDate" : "2015-05-04T15:37:19.972+0000"\n}</code></pre>
     
     <h3 class="field-label">Example data</h3>
     <div class="example-data-content-type">Content-Type: application/xml</div>
-    <pre class="example"><code><Order>\n  <id>123456</id>\n  <petId>123456</petId>\n  <quantity>0</quantity>\n  <shipDate>2015-05-04T14:01:38.754Z</shipDate>\n  <status>string</status>\n  <complete>true</complete>\n</Order></code></pre>
+    <pre class="example"><code><Order>\n  <id>123456</id>\n  <petId>123456</petId>\n  <quantity>0</quantity>\n  <shipDate>2015-05-04T17:37:19.976Z</shipDate>\n  <status>string</status>\n  <complete>true</complete>\n</Order></code></pre>
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">Order</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid Order</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -299,11 +397,26 @@
     
     <h3 class="field-label">Example data</h3>
     <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>{\n  "id" : 123456789,\n  "petId" : 123456789,\n  "complete" : true,\n  "status" : "aeiou",\n  "quantity" : 123,\n  "shipDate" : "2015-05-04T12:01:38.759+0000"\n}</code></pre>
+    <pre class="example"><code>{\n  "id" : 123456789,\n  "petId" : 123456789,\n  "complete" : true,\n  "status" : "aeiou",\n  "quantity" : 123,\n  "shipDate" : "2015-05-04T15:37:19.978+0000"\n}</code></pre>
     
     <h3 class="field-label">Example data</h3>
     <div class="example-data-content-type">Content-Type: application/xml</div>
-    <pre class="example"><code><Order>\n  <id>123456</id>\n  <petId>123456</petId>\n  <quantity>0</quantity>\n  <shipDate>2015-05-04T14:01:38.760Z</shipDate>\n  <status>string</status>\n  <complete>true</complete>\n</Order></code></pre>
+    <pre class="example"><code><Order>\n  <id>123456</id>\n  <petId>123456</petId>\n  <quantity>0</quantity>\n  <shipDate>2015-05-04T17:37:19.979Z</shipDate>\n  <status>string</status>\n  <complete>true</complete>\n</Order></code></pre>
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">Order not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">Order</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid ID supplied</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -326,6 +439,17 @@
     <div class="return-type"><a href="#"></a></div>
 
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">Order not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid ID supplied</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -346,6 +470,13 @@
 
     <div class="return-type"><a href="#"></a></div>
 
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">0</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -368,6 +499,13 @@
     <div class="return-type"><a href="#"></a></div>
 
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">0</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -388,6 +526,13 @@
 
     <div class="return-type"><a href="#"></a></div>
 
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">0</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -421,6 +566,17 @@
     <div class="example-data-content-type">Content-Type: application/xml</div>
     <pre class="example"><code>string</code></pre>
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">String</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid username/password supplied</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -438,6 +594,13 @@
 
     <div class="return-type"><a href="#"></a></div>
 
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">0</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -468,6 +631,21 @@
     <div class="example-data-content-type">Content-Type: application/xml</div>
     <pre class="example"><code><User>\n  <id>123456</id>\n  <username>string</username>\n  <firstName>string</firstName>\n  <lastName>string</lastName>\n  <email>string</email>\n  <password>string</password>\n  <phone>string</phone>\n  <userStatus>0</userStatus>\n</User></code></pre>
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">User not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">200</div>
+      <div class="response-msg">successful operation</div>
+      <div class="response-datatype">User</div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid username supplied</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -492,6 +670,17 @@
     <div class="return-type"><a href="#"></a></div>
 
     
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">User not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid user supplied</div>
+      <div class="response-datatype"></div>
+    
   </div> <!-- method -->
   <hr>
   
@@ -512,6 +701,17 @@
 
     <div class="return-type"><a href="#"></a></div>
 
+    
+
+    <h3 class="field-label">Responses</h3>
+    
+      <div class="response-code">404</div>
+      <div class="response-msg">User not found</div>
+      <div class="response-datatype"></div>
+    
+      <div class="response-code">400</div>
+      <div class="response-msg">Invalid username supplied</div>
+      <div class="response-datatype"></div>
     
   </div> <!-- method -->
   <hr>
@@ -590,7 +790,7 @@
   
   
   <style>
-body { 
+body {
 	font-family: Trebuchet MS, sans-serif;
 	font-size: 15px;
 	color: #444;
@@ -692,16 +892,21 @@ code {
   width: 500px;
 }
 
-.param {
+.response-code,.param {
   width: 500px;
   padding: 10px 0 0 20px;
   font-weight: bold;
 }
 
-.param-desc {
+.response-msg,.param-desc {
   width: 700px;
   padding: 0 0 0 20px;
   color: #777;
+}
+
+.response-datatype {
+  font-weight: bold;
+  padding: 0 0 0 20px;
 }
 
 .param-type {
@@ -711,6 +916,7 @@ code {
 .field-label {
   padding: 0;
   margin: 0;
+  margin-top: 1em;
   clear: both;
 }
 
@@ -741,6 +947,7 @@ code {
   display: inline-block;
   text-decoration: none;
 }
+
   </style>
   </body>
 </html>
